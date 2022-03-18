@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func maxProduct(words []string) int {
 	binArr := make([]int64, len(words))
 
@@ -28,14 +26,4 @@ func max(a, b int) int {
 		return a
 	}
 	return b
-}
-
-func main() {
-	s := "sss"
-	a := ""
-	for _, c := range s {
-		a += c
-	}
-	fmt.Printf("%T\n", s[0])
-
 }

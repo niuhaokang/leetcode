@@ -1,4 +1,4 @@
-package binPointer
+package p007
 
 import "sort"
 
